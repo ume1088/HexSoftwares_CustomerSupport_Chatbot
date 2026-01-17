@@ -36,6 +36,7 @@ This approach ensures:
 5. If AI output is unsafe or unclear, the user is redirected to support.
 
 ---
+
 ##💬 Example Questions (Recommended)
 To get accurate responses, ask questions related to the FAQs, such as:
 “What are your support hours?”
@@ -44,6 +45,7 @@ To get accurate responses, ask questions related to the FAQs, such as:
 “What services do you provide?”
 “Where is your company located?”
 For other questions, the chatbot will attempt an AI-generated response, which may be general in nature.
+---
 
 ## 📂 Project Structure
 HexSoftware_CustomerSupport_Chatbot/
@@ -76,7 +78,7 @@ python app.py
 4️⃣ Open in Browser
 http://127.0.0.1:5000/
 
-##⚠️ Important Note
+⚠️ Important Note
 The AI model (distilgpt2) is not trained on company data
 Best performance is achieved when asking FAQ-related questions
 This project focuses on logic, structure, and learning, not enterprise-level AI
