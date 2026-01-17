@@ -1,0 +1,6 @@
+flask==2.3.2
+transformers==4.42.0
+torch
+numpy==1.25.2
+rapidfuzz==2.15.0
+emoji==2.2.0
