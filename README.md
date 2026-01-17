@@ -13,12 +13,11 @@ This approach ensures:
 ---
 
 ## 🚀 Features
-- FAQ-based instant responses
-- AI fallback using DistilGPT-2
-- Controlled prompt and output length
-- Clean and simple chat UI
-- Full-stack implementation
-- Beginner-friendly and internship-ready project
+✅ Accurate answers for Frequently Asked Questions (FAQs)
+🤖 AI-based response generation using Hugging Face (distilgpt2) when no FAQ matches
+🌐 Web-based chat interface
+⚡ Fast and lightweight Flask backend
+📁 Clean project structure with templates and static files
 
 ---
 
@@ -37,6 +36,14 @@ This approach ensures:
 5. If AI output is unsafe or unclear, the user is redirected to support.
 
 ---
+##💬 Example Questions (Recommended)
+To get accurate responses, ask questions related to the FAQs, such as:
+“What are your support hours?”
+“How can I contact customer support?”
+“What is your refund policy?”
+“What services do you provide?”
+“Where is your company located?”
+For other questions, the chatbot will attempt an AI-generated response, which may be general in nature.
 
 ## 📂 Project Structure
 HexSoftware_CustomerSupport_Chatbot/
@@ -69,14 +76,10 @@ python app.py
 4️⃣ Open in Browser
 http://127.0.0.1:5000/
 
-🔒 AI Safety Measures
-FAQ responses are prioritized over AI output
-
-AI response length is restricted
-
-Unsafe or unclear responses are blocked
-
-Users are redirected to human support when required
+##⚠️ Important Note
+The AI model (distilgpt2) is not trained on company data
+Best performance is achieved when asking FAQ-related questions
+This project focuses on logic, structure, and learning, not enterprise-level AI
 
 
 
@@ -84,6 +87,6 @@ Users are redirected to human support when required
 Ume Habiba
 BS IT Student
 Aspiring AI & Machine Learning Engineer
-
+GitHub: https://github.com/ume1088
 
 
