@@ -37,7 +37,7 @@ This approach ensures:
 
 ---
 
-##💬 Example Questions (Recommended)
+💬 Example Questions (Recommended)
 ---
 To get accurate responses, ask questions related to the FAQs, such as:
 “What are your support hours?”
@@ -80,7 +80,7 @@ python app.py
 http://127.0.0.1:5000/
 ---
 
-##⚠️ Important Note
+⚠️ Important Note
 ---
 The AI model (distilgpt2) is not trained on company data
 Best performance is achieved when asking FAQ-related questions
